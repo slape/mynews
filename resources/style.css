@@ -36,8 +36,7 @@ nav span {
 .mainBody {
   width: 1230px;
   margin: 0 auto;
-  margin-bottom: 300px;
-  padding-top: 50px;
+  padding: 50px;
   display: flex;
 }
 
@@ -135,4 +134,29 @@ nav span {
   font-size: 12px;
   padding: 15px;
   border-bottom: 1px solid black;
+}
+
+footer {
+  height: 300px;
+  background-color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.footerLinks {
+  padding: 20px 10px;
+}
+
+.footerLogo {
+  color: white;
+  flex-grow: 1;
+  padding: 10px;
 }
