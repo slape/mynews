@@ -116,13 +116,23 @@ nav span {
   flex-flow: column wrap;
 }
 
-.linkList span {
-  border-bottom: 1px;
+.newsBites h3 {
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 
 .linkList {
+  background-color: WhiteSmoke;
+  color: DimGray;
   display: flex;
+  flex-wrap: wrap;
+}
 
+.listItem {
+  width: 220px;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 15px;
+  border-bottom: 1px solid black;
 }
