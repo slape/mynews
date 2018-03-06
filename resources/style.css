@@ -144,19 +144,22 @@ footer {
   justify-content: center;
 }
 
-.footerContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
-}
-.footerLinks {
+footer nav {
   padding: 20px 10px;
+  display: inline-block;
 }
 
-.footerLogo {
+.footerLogo h3 {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
   color: white;
-  flex-grow: 1;
-  padding: 10px;
+}
+
+.footerCopyright {
+  display: flex;
+  flex-wrap: wrap;
 }
