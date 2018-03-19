@@ -2,110 +2,115 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="resources/reset.css">
     <link rel="stylesheet" href="resources/style.css">
     <title>My Times</title>
   </head>
   <body>
     <!-- Header Section -->
       <header>
-        <div class="logo">
+        <figure>
           <img src="resources/photos/myt-logo.jpg">
-          <h3>My Times</h3>
-        </div>
+          <caption>My Times</caption>
+        </figure>
         <nav>
-          <span><a href="#">World</a></span>
-          <span><a href="#">U.S.</a></span>
-          <span><a href="#">Tech</a></span>
-          <span><a href="#">Science</a></span>
+          <a href="#">World</a>
+          <a href="#">U.S.</a>
+          <a href="#">Tech</a>
+          <a href="#">Science</a>
         </nav>
       </header>
   <!-- Main Content Section -->
-      <div class="mainBody">
+      <main>
   <!--First Column, Feature Story-->
-        <div class="column" id="columnOne">
-          <div class="featureStory">
-            <div class="featurePicture">
-                <span>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</span>
-            </div>
-            <div class="featureText">
+        <div class="column large">
+            <article class="hero">
+                <h1>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, "Feeling Funny."</h1>
+            </article>
+            <article class="hero-text">
               <p> MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa. </p>
-            </div>
-          </div>
+            </article>
+
   <!--First Column, Other Stories-->
-          <div class="storyFlexContainer">
-            <div class="story" id="Orca">
+          <div class="article-flex-container">
+            <article class="text-feature">
               <h2>Orca Spends Vacation at Land World Puget</h2>
               <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan... </p>
-            </div>
-            <div class="story" id="treeGirl">
-              <span>Earth Spins Backwards for 2017</span>
-            </div>
-            <div class="story" id="burger">
+            </article>
+            <article class="pic-feature" id="tree-girl">
+              <h3>Earth Spins Backwards for 2017</h3>
+            </article>
+            <article class="text-feature">
               <h2>Burger for Breakfast: How Early is too Early?</h2>
               <p>Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat.</p>
-            </div>
-            <div class="story" id="cameraGuy">
-              <span>Research Shows Cameras Erase Memory</span>
-            </div>
+            </article>
+            <article class="pic-feature" id="camera-guy">
+              <h3>Research Shows Cameras Erase Memory</h3>
+            </article>
           </div>
+
         </div>
+
   <!--Second Column-->
-        <div class="column" id="columnTwo">
-            <div class="story" id="fbi">
+        <div class="column med">
+            <article class="text-feature">
               <h2>FBI Finds Action Star Guilty of False Advertising</h2>
               <p>WASHINGTON DC- Donec luctus sem augue, rutrum posuere orci aliquam sed. Nam vitae aliquam lectus. Sed tempor tortor est, nec sagittis eros tincidunt sed. Morbi venenatis condimentum sem, vitae sollicitudin turpis pulvinar eget. Morbi pellentesque consectetur mi id auctor. Phasellus tincidunt orci mauris, placerat pharetra urna fringilla vitae. Morbi eget rutrum urna. Cras condimentum augue ut ante sollicitudin interdum. Pellentesque cursus dolor at tincidunt cursus. Vestibulum blandit aliquam felis... </p>
-            </div>
-            <div class="story" id="catGirl">
-              <span>Cats in Control-Is It a Thing?</span>
-            </div>
-            <div class="story" id="brooklyn">
+            </article>
+            <article class="pic-feature" id="cat-girl">
+              <h3>Cats in Control-Is It a Thing?</h3>
+            </article>
+            <article class="text-feature">
               <p>BROOKLYN, NY- In molestie nulla sodales sit amet. Proin vulputate, ipsum porta aliquam commodo, nunc nibh tincidunt lorem, vel consectetur neque mi vel neque. Mauris ultricies, nulla scelerisque sollicitudin lobortis, dui est sodales sapien, a vestibulum velit diam eget felis. Vivamus dignissim lacinia dolor, quis commodo tellus pellentesque in.</p>
-            </div>
+            </article>
+            <article class="text-feature">
+              <p>SAN FRANSICO, CA- Morbi suscipit eu tellus id pellentesque. Nulla ut consequat tortor. Mauris mattis tristique nisi, non ultrices est aliquam id. Duis molestie arcu id mauris elementum sagittis at eget risus. Duis fermentum tellus nec dolor imperdiet, ac ultricies augue molestie. Duis commodo enim eget rutrum aliquam.</p>
+            </article>
           </div>
 
   <!--Third Column-->
-        <div class="column" id="columnThree">
-            <div class="newsBites" id="cookie">
-              <img src="resources/photos/cookie.png">
-              <h3>NEWS BITES</h3>
-            </div>
-            <div class="linkList">
-              <div class="listItem">
-                <span>Cat Emoji Goes Viral</span>
-              </div>
-              <div class="listItem">
-                <span>Buy Youtube Views</span>
-              </div>
-              <div class="listItem">
-                <span>Home Business Advertising Ideas</span>
-              </div>
-              <div class="listItem">
-                <span>Advertising Internet Online</span>
-              </div>
-              <div class="listItem">
-                <span>Illustration in Marketing Materials</span>
-              </div>
-              <div class="listItem">
-                <span>Finally a Top Secret Way You Can</span>
-              </div>
-            </div>
-          </div>
-      </div>
-      <footer>
-        <div class="footerContainer">
-          <div class="footerLogo">
+        <div class="column small">
+          <figure>
+            <img src="resources/photos/cookie.png">
+            <h3>NEWS BITES</h3>
+          </figure>
+
+          <aside>
+              <p>Cat Emoji Goes Viral</p>
+              <p>Buy Youtube Views</p>
+              <p>Home Business Advertising Ideas</p>
+              <p>Advertising Internet Online</p>
+              <p>Illustration in Marketing Materials</p>
+              <p>Finally a Top Secret Way</p>
+              <p>A Computer Pioneer</p>
+              <p>Deadly Problems in Offshore Drilling</p>
+              <p>It was Too White and Too Male</p>
+              <p>Candidates Are Slow to Follow</p>
+              <p>Truth is Hard to Find</p>
+              <p>A Downside to Gluten-Free?</p>
+              <p>Facebook Under Fire</p>
+              <p>How to Stop Eating Sugar</p>
+              <p>Listen to ‘The Daily’</p>
+              <p>Democrats Are Primed for 2018</p>
+              <p>A Parable of Self-Destruction</p>
+              <p>In Praise of A.D.H.D.</p>
+              <p>Good Weekend Reads</p>
+          </aside>
+        </div>
+      </main>
+  <!--End of Main Section-->
+
+        <footer>
+          <span>
             <h3>My Times</h3>
             <nav>
-              <span><a href="#">World</a></span>
-              <span><a href="#">U.S.</a></span>
-              <span><a href="#">Tech</a></span>
-              <span><a href="#">Science</a></span>
+              <a href="#">World</a>
+              <a href="#">U.S.</a>
+              <a href="#">Tech</a>
+              <a href="#">Science</a>
             </nav>
-          </div>
-          <div class="footerCopyright">
-            © 2016, My Times (A Division of Codecademy bite)
-          </div>
-        </div>
+          </span>
+          <p>© 2016, My Times (A Division of Codecademy bite)</p>
       </footer>
   </body>
 </html>
